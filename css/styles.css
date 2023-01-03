@@ -172,7 +172,6 @@ body {
 .section-button:focus {
     background-color: var(--hover-text-color);
     font-weight: 600; 
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
@@ -180,15 +179,14 @@ body {
 
 /* Опис */
 
-.feature {
-    padding-top: 120px ;
-    padding-bottom: 120px ;
-}
 
 
 .feature-list {
     display: flex;
     gap: 24px ;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .feature-title {
     color: var(--title-text-color);
@@ -201,9 +199,9 @@ body {
     color: var(--primary-text-color);
 }
 
-.work {
+/* .work {
     margin-bottom: 120px ;
-}
+} */
 
 .work-title {
     color: var(--title-text-color);
@@ -212,6 +210,11 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+}
+
+.work-item{
+    padding-bottom: 120px;
+    padding-top: 72px;
 }
 
 /* Команда */
@@ -264,11 +267,15 @@ margin-bottom: 120px;
 
 /* Футер */
 
-
+.footer .container{
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
 
 .footer-text {
     color: var(--footer-text-color);
-    padding-left: 156px;
-    padding-top: 16px;
-    padding-bottom: 100px;
+    margin-top: 16px;}
+
+.bottom-left{
+    width: 264px;
 }
