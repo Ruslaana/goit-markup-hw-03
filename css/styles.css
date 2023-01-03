@@ -56,6 +56,7 @@ body {
 .menu {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid var(--footer-text-color);
 }
 
 .logo-navigation {
@@ -94,7 +95,7 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -119,15 +120,21 @@ body {
     color: var(--hover-text-color);
 }
 
-.filter-btn{
+.button{
     color: var(--accent-color);
     background-color: var(--logo-text-color);
     cursor: pointer;
-    border: none;
+    padding: 12px 24px;
+    border: 1px solid var(--primary-brand-color-iris);
+    border-radius: 4px;
+
+
 }
-.filter-btn:hover,
-.filter-btn:active,
-.filter-btn:focus {
+
+
+.button:hover,
+.button:active,
+.button:focus {
     color: var(--white-background-color);
     background-color: var(--accent-color);
 }
@@ -188,20 +195,21 @@ body {
     padding-bottom: 120px;
 
 }
+
+/* .feature-item{
+    border: 1px solid var(--footer-text-color);
+} */
+
 .feature-title {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-
 }
 .text {
     color: var(--primary-text-color);
 }
 
-/* .work {
-    margin-bottom: 120px ;
-} */
 
 .work-title {
     color: var(--title-text-color);
@@ -258,6 +266,11 @@ margin-bottom: 120px;
 
 /* Examlpe-title  */
 
+.example {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .example-title {
     color: var(--title-text-color);
     font-weight: 500;
@@ -279,3 +292,27 @@ margin-bottom: 120px;
 .bottom-left{
     width: 264px;
 }
+/* Portfolio */
+
+.example-list{
+    flex-wrap: wrap;
+}
+
+.portfolio-img {
+    display: block;
+}
+
+.wrap-text{
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.filter-list {
+    justify-content: center;
+}
+
+.text {
+    margin-top: 8px;
+}
+
