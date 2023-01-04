@@ -315,7 +315,9 @@ margin-bottom: 120px;
     padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
-    border: 1px solid var(--footer-text-color);
+    border-left: 1px solid var(--footer-text-color);
+    border-right: 1px solid var(--footer-text-color);
+    border-bottom: 1px solid var(--footer-text-color);
 }
 
 .filter-list {
@@ -323,4 +325,11 @@ margin-bottom: 120px;
 
 }
 
+.list-btn{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    margin-bottom: 72px;
+}
 
