@@ -298,7 +298,7 @@ display: block;
 
 .team-item {
 background-color: var(--white-background-color);
-border-radius: 4px;
+border-radius: 4px solid var(--primary-text-color);
 }
 
 .team-title {
