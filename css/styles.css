@@ -162,8 +162,7 @@ body {
     padding: 12px 24px;
     border: 1px solid var(--primary-brand-color-iris);
     border-radius: 4px;
-
-
+    font-weight: 500;
 }
 
 
@@ -207,6 +206,9 @@ body {
     cursor: pointer;
     margin-top: 48px;
     padding: 16px 32px ;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .section-button:hover,
@@ -296,8 +298,7 @@ display: block;
 
 .team-item {
 background-color: var(--white-background-color);
-/* display: block; */
-/* margin-bottom: 120px; */
+border-radius: 4px;
 }
 
 .team-title {
@@ -330,9 +331,15 @@ background-color: var(--white-background-color);
 
 /* Футер */
 
-.dark {
-    padding-top: 120px;
-    padding-bottom: 120px; 
+.dark-top {
+    background-color: var(--title-text-color);
+    padding-top: 188px;
+    padding-bottom: 188px; 
+}
+
+.dark{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
@@ -342,6 +349,7 @@ background-color: var(--white-background-color);
 .bottom-left{
     width: 264px;
 }
+
 /* Portfolio */
 
 .border-line{
@@ -352,9 +360,9 @@ background-color: var(--white-background-color);
     flex-wrap: wrap;
 }
 
-/* .portfolio-img {
+.portfolio-img,img {
     display: block;
-} */
+}
 
 .wrap-text{
     padding-left: 16px;
@@ -378,5 +386,6 @@ background-color: var(--white-background-color);
     gap: 24px;
     margin: 0;
     margin-bottom: 72px;
+    padding-left: 0;
 }
 
